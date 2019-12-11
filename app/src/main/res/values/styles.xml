@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GoldenCardView">
+        <item name="cardBackgroundColor">#fff</item>
+        <item name="cardCornerRadius">5dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:fontFamily">@font/godom</item>
+    </style>
+
+    <style name="GoldenButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/round_background</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/godom</item>
+    </style>
+
+    <style name="GoldenTextView">
+        <item name="android:fontFamily">@font/godom</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="GoldenTextViewBlack">
+        <item name="android:fontFamily">@font/godom</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="GoldenTextViewWhite">
+        <item name="android:fontFamily">@font/godom</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="GoldenEditText" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/godom</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@android:drawable/editbox_background_normal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="GoldenSpinner" parent="android:Widget.Spinner">
+        <item name="android:fontFamily">@font/godom</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@android:drawable/editbox_background_normal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="GoldenCheckBox" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlNormal">@color/colorPrimary</item>   <!-- normal border color change as you wish -->
+        <item name="colorControlActivated">@color/colorPrimary</item> <!-- activated color change as you wish -->
+        <item name="android:textColor">@color/colorPrimary</item> <!-- checkbox text color -->
+    </style>
+
+    <style name="GoldenTable">
+
+    </style>
+</resources>

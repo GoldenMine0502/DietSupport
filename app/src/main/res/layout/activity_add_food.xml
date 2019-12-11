@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dialogs.AddFoodActivity">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center"
+            style="@style/GoldenTextViewWhite"
+            android:text="음식"
+            android:textSize="25sp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            style="@style/GoldenEditText"
+            android:id="@+id/add_food_food"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"/>
+
+        <TextView
+            style="@style/GoldenTextViewWhite"
+            android:layout_marginBottom="2dp"
+            android:layout_gravity="bottom"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/GoldenTextViewWhite"
+            android:text="칼로리"
+            android:textSize="25sp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:inputType="number"
+            style="@style/GoldenEditText"
+            android:id="@+id/add_food_calc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"/>
+
+        <TextView
+            style="@style/GoldenTextViewWhite"
+            android:layout_marginBottom="2dp"
+            android:layout_gravity="bottom"
+            android:text="kcal"
+            android:textSize="20sp"
+            android:layout_width="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/add_food_confirm"
+            style="@style/GoldenButton"
+            android:text="확인"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp" />
+        <Button
+            android:id="@+id/add_food_cancel"
+            style="@style/GoldenButton"
+            android:text="취소"
+            android:textSize="20sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp" />
+    </LinearLayout>
+</LinearLayout>

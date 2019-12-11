@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/GoldenTextView"
+
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:text="김치 / 1000 Kcal"
+        android:gravity="center"
+        android:id="@+id/fragment_food_admin_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <CheckBox
+        style="@style/GoldenCheckBox"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:id="@+id/fragment_food_admin_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
